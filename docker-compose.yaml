@@ -1,0 +1,7 @@
+version: "2.4"
+
+services:
+        app:
+                image: martinfleming/hello-world-docker:latest
+                ports:
+                        - 5000:5000
